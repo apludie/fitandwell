@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Daily Calorie Calculator: Estimate Your Maintenance Calories | FIT and Well Living</title>
+  <meta name="description" content="Estimate your daily maintenance calories with the Mifflin-St Jeor equation using pounds, feet and inches, plus cautious estimates for gradual weight loss.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.yourdomain.com/calorie-calculator.html">
+  <meta name="language" content="English">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+  <meta name="theme-color" content="#163F2F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FIT and Well Living">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Daily Calorie Calculator: Estimate Your Maintenance Calories | FIT and Well Living">
+  <meta property="og:description" content="Estimate your daily maintenance calories with the Mifflin-St Jeor equation using pounds, feet and inches, plus cautious estimates for gradual weight loss.">
+  <meta property="og:url" content="https://www.yourdomain.com/calorie-calculator.html">
+  <meta property="og:image" content="https://www.yourdomain.com/assets/images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Daily Calorie Calculator: Estimate Your Maintenance Calories | FIT and Well Living">
+  <meta name="twitter:description" content="Estimate your daily maintenance calories with the Mifflin-St Jeor equation using pounds, feet and inches, plus cautious estimates for gradual weight loss.">
+  <meta name="twitter:image" content="https://www.yourdomain.com/assets/images/og-image.png">
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/config-fit.js?v=fit-well-20261009" defer></script>
+  <script src="assets/js/main-fit.js?v=fit-well-20261009" defer></script>
+  <script src="assets/js/calculators.js" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Daily Calorie Calculator", "url": "https://www.yourdomain.com/calorie-calculator.html", "applicationCategory": "HealthApplication", "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "inLanguage": "en-US"}</script>
+</head>
+<body data-page="calculators">
+  <div id="wp-header"></div>
+  <noscript><div style="background:#0F2E22;color:#fff;padding:10px 16px;text-align:center">Contact Us Toll-Free: <strong>+1-888-MY-HEALTH</strong></div><nav style="padding:14px 16px;text-align:center;background:#fff"><a href="index.html">Home</a> · <a href="weight-loss.html">Weight Loss</a> · <a href="fat-loss.html">Fat Loss</a> · <a href="meal-plans.html">Meal Plans</a> · <a href="recipes.html">Recipes</a> · <a href="calculators.html">Calculators</a> · <a href="blog.html">Blog</a> · <a href="about.html">About Us</a> · <a href="contact.html">Contact Us</a></nav></noscript>
+  <main id="main">
+<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="calculators.html">Calculators</a></li><li aria-current="page">Daily Calorie Calculator</li></ol></nav><h1>Daily Calorie Calculator</h1><p class="page-hero__lede">Estimate how many calories your body uses each day, based on your age, height, weight and activity level.</p></div></section>
+    <section class="section section--tight"><div class="container">
+      <aside class="contact-banner" aria-label="Contact information"><p class="contact-banner__text">Questions about our tools? <span data-contact="label">Contact Us Toll-Free</span>: <strong><span data-contact="number">+1-888-MY-HEALTH</span></strong></p><a class="contact-banner__link text-link" href="contact.html">Contact page</a></aside>
+      <div class="calc-layout">
+        <div class="calc-card">
+          <h2>Enter your details</h2>
+          <form id="calorie-form" novalidate>
+      <div class="form-grid">
+        <div class="field"><label for="cal-age">Age</label>
+          <div class="input-wrap"><input id="cal-age" name="age" type="number" inputmode="numeric" min="18" max="100" step="1" placeholder="35" autocomplete="off"><span class="unit">years</span></div></div>
+        <div class="field"><label for="cal-weight">Weight</label>
+          <div class="input-wrap"><input id="cal-weight" name="weight_lb" type="number" inputmode="decimal" min="70" max="700" step="0.1" placeholder="180" autocomplete="off"><span class="unit">lb</span></div></div>
+        
+      <fieldset class="field span-2">
+        <legend>Equation</legend>
+        <div class="radio-row">
+          <label class="radio-pill"><input type="radio" name="sex" value="female" id="cal-sex-f"><span>Female</span></label>
+          <label class="radio-pill"><input type="radio" name="sex" value="male" id="cal-sex-m"><span>Male</span></label>
+        </div>
+        <span class="field__hint">The Mifflin-St Jeor equation has separate versions for males and females.</span>
+      </fieldset>
+        <div class="span-2">
+      <fieldset class="field">
+        <legend>Height</legend>
+        <div class="form-grid">
+          <div class="field"><label for="cal-height_ft" class="sr-only">Height, feet</label>
+            <div class="input-wrap"><input id="cal-height_ft" name="height_ft" type="number" inputmode="numeric" min="3" max="8" step="1" placeholder="5" autocomplete="off"><span class="unit">ft</span></div></div>
+          <div class="field"><label for="cal-height_in" class="sr-only">Height, inches</label>
+            <div class="input-wrap"><input id="cal-height_in" name="height_in" type="number" inputmode="decimal" min="0" max="11.9" step="0.1" placeholder="7" autocomplete="off"><span class="unit">in</span></div></div>
+        </div>
+      </fieldset></div>
+        <div class="field span-2"><label for="cal-activity">Activity level</label>
+          <select id="cal-activity" name="activity">
+            <option value="1.2">Sedentary: little or no exercise</option>
+            <option value="1.375">Lightly active: light exercise 1–3 days/week</option>
+            <option value="1.55" selected>Moderately active: moderate exercise 3–5 days/week</option>
+            <option value="1.725">Very active: hard exercise 6–7 days/week</option>
+            <option value="1.9">Extra active: very hard exercise or a physical job</option>
+          </select></div>
+      </div>
+      <div class="form-error" role="alert" aria-live="assertive"></div>
+      <div class="form-actions"><button class="btn btn--primary" type="submit">Calculate</button><button class="btn btn--outline" type="reset">Reset</button></div>
+    </form>
+        </div>
+        <div class="result" id="calorie-result" aria-live="polite">
+          <h2>Your result</h2>
+          <p class="result__placeholder">Fill in your details, then select Calculate to see your estimated daily calories.</p>
+        </div>
+      </div>
+    </div></section>
+    <section class="section section--tight"><div class="container content-layout">
+      <article class="prose">
+        <h2>How this calculator works</h2>
+        <p>This calculator uses the <strong>Mifflin-St Jeor equation</strong>, a widely used formula for estimating resting energy expenditure in adults, and then multiplies the result by an activity factor:</p>
+        <ul>
+          <li>Males: (10 &times; weight in kg) + (6.25 &times; height in cm) &minus; (5 &times; age) + 5</li>
+          <li>Females: (10 &times; weight in kg) + (6.25 &times; height in cm) &minus; (5 &times; age) &minus; 161</li>
+        </ul>
+        <p>Your inputs in pounds, feet and inches are converted to metric units behind the scenes. The result is an estimate of your <strong>maintenance calories</strong>, the amount that would keep your weight roughly stable.</p>
+        <h2>Using your result for weight loss</h2>
+        <p>A modest reduction from maintenance is a common starting point for gradual weight loss. The calculator shows estimates for reductions of about 250 and 500 calories per day. In practice, weight loss is rarely steady, because your body adapts and day-to-day water changes mask progress.</p>
+        <ul>
+          <li>Treat the number as a starting point. Track your weekly average weight for 2 to 4 weeks and adjust if needed.</li>
+          <li>Focus on food quality as well as quantity. Our <a href="meal-plans.html">meal plans</a> and <a href="recipes.html">recipes</a> can help.</li>
+          <li>Recalculate as your weight or activity changes.</li>
+        </ul>
+        <p>The calculator won't display targets below about 1,200 calories a day for the female equation or 1,500 for the male equation, because intakes that low are generally recommended only with medical supervision.</p>
+        <h2>Why your needs may differ</h2>
+        <p>Equations estimate averages for groups of people. Your real needs can differ because of muscle mass, genetics, health conditions, medications, pregnancy, breastfeeding and how active you are outside of exercise. This calculator is intended for adults 18 and older and isn't suitable during pregnancy or for people with medical conditions that affect metabolism.</p>
+        <div class="callout"><p class="callout__title">Important</p><p>This calculator provides a general estimate for educational purposes only. It isn't a diagnosis or a personalized medical recommendation. Talk with your doctor or a registered dietitian about your individual needs. See our <a href="medical-disclaimer.html">medical disclaimer</a>.</p></div>
+      </article>
+      <aside class="sidebar" aria-label="Related"><div class="side-card side-card--contact"><h2><span data-contact="label">Contact Us Toll-Free</span></h2><p>Questions about using our tools?</p><span data-contact="number" data-class="side-card__number">+1-888-MY-HEALTH</span><a class="text-link" href="contact.html">Contact page</a></div><div class="side-card"><h2>Related guides</h2><ul><li><a href="weight-loss.html">Healthy Weight Loss Guide</a></li><li><a href="fat-loss.html">Fat Loss Guide</a></li><li><a href="belly-fat.html">How to Lose Belly Fat</a></li><li><a href="meal-plans.html">Healthy Meal Plans</a></li><li><a href="calculators.html">All calculators</a></li></ul></div></aside>
+    </div></section>
+    <section class="section section--white" aria-labelledby="more-tools"><div class="container">
+      <div class="section-head"><span class="eyebrow">Keep exploring</span><h2 id="more-tools">More free calculators</h2></div>
+      <div class="grid grid--3"><article class="card tool-card reveal"><div class="icon-badge"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 7h14l2 12H3L5 7z"/><path d="M9 7a3 3 0 0 1 6 0"/><path d="M12 12l2-2"/></svg></div><h3><a href="bmi-calculator.html">BMI Calculator</a></h3><p>Check your body mass index using feet, inches and pounds, and learn what the number can and can't tell you.</p><span class="text-link" aria-hidden="true">Open calculator</span></article><article class="card tool-card reveal"><div class="icon-badge"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 15 15 4l5 5L9 20z"/><path d="M8 11l1.5 1.5M11 8l1.5 1.5M14 5l1.5 1.5"/></svg></div><h3><a href="ideal-weight.html">Ideal Weight Calculator</a></h3><p>See the weight range linked to a healthy BMI for your height, plus common reference formulas.</p><span class="text-link" aria-hidden="true">Open calculator</span></article><article class="card tool-card reveal"><div class="icon-badge"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></svg></div><h3><a href="water-calculator.html">Water Intake Calculator</a></h3><p>Get a general daily hydration estimate based on your weight, exercise and climate.</p><span class="text-link" aria-hidden="true">Open calculator</span></article></div></div></section>
+  </main>
+  <div id="wp-footer"></div>
+</body>
+</html>

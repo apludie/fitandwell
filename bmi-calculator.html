@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>BMI Calculator (Feet, Inches & Pounds) | FIT and Well Living</title>
+  <meta name="description" content="Free BMI calculator using feet, inches and pounds or metric units. See your BMI category, a healthy-weight range for your height, and what BMI can't tell you.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.yourdomain.com/bmi-calculator.html">
+  <meta name="language" content="English">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+  <meta name="theme-color" content="#163F2F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FIT and Well Living">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="BMI Calculator (Feet, Inches & Pounds) | FIT and Well Living">
+  <meta property="og:description" content="Free BMI calculator using feet, inches and pounds or metric units. See your BMI category, a healthy-weight range for your height, and what BMI can't tell you.">
+  <meta property="og:url" content="https://www.yourdomain.com/bmi-calculator.html">
+  <meta property="og:image" content="https://www.yourdomain.com/assets/images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BMI Calculator (Feet, Inches & Pounds) | FIT and Well Living">
+  <meta name="twitter:description" content="Free BMI calculator using feet, inches and pounds or metric units. See your BMI category, a healthy-weight range for your height, and what BMI can't tell you.">
+  <meta name="twitter:image" content="https://www.yourdomain.com/assets/images/og-image.png">
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/config-fit.js?v=fit-well-20261009" defer></script>
+  <script src="assets/js/main-fit.js?v=fit-well-20261009" defer></script>
+  <script src="assets/js/calculators.js" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "BMI Calculator", "url": "https://www.yourdomain.com/bmi-calculator.html", "applicationCategory": "HealthApplication", "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "inLanguage": "en-US"}</script>
+</head>
+<body data-page="calculators">
+  <div id="wp-header"></div>
+  <noscript><div style="background:#0F2E22;color:#fff;padding:10px 16px;text-align:center">Contact Us Toll-Free: <strong>+1-888-MY-HEALTH</strong></div><nav style="padding:14px 16px;text-align:center;background:#fff"><a href="index.html">Home</a> · <a href="weight-loss.html">Weight Loss</a> · <a href="fat-loss.html">Fat Loss</a> · <a href="meal-plans.html">Meal Plans</a> · <a href="recipes.html">Recipes</a> · <a href="calculators.html">Calculators</a> · <a href="blog.html">Blog</a> · <a href="about.html">About Us</a> · <a href="contact.html">Contact Us</a></nav></noscript>
+  <main id="main">
+<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="calculators.html">Calculators</a></li><li aria-current="page">BMI Calculator</li></ol></nav><h1>BMI Calculator</h1><p class="page-hero__lede">Calculate your body mass index in seconds and learn what your result means, including its limitations.</p></div></section>
+    <section class="section section--tight"><div class="container">
+      <aside class="contact-banner" aria-label="Contact information"><p class="contact-banner__text">Questions about our tools? <span data-contact="label">Contact Us Toll-Free</span>: <strong><span data-contact="number">+1-888-MY-HEALTH</span></strong></p><a class="contact-banner__link text-link" href="contact.html">Contact page</a></aside>
+      <div class="calc-layout">
+        <div class="calc-card">
+          <h2>Enter your details</h2>
+          <form id="bmi-form" novalidate>
+      <fieldset><legend class="sr-only">Units</legend>
+        <div class="unit-toggle">
+          <label><input type="radio" name="units" value="us" checked>US (ft, lb)</label>
+          <label><input type="radio" name="units" value="metric">Metric (cm, kg)</label>
+        </div></fieldset>
+      <div data-units="us" class="form-grid">
+        <div class="span-2">
+      <fieldset class="field">
+        <legend>Height</legend>
+        <div class="form-grid">
+          <div class="field"><label for="bmi-height_ft" class="sr-only">Height, feet</label>
+            <div class="input-wrap"><input id="bmi-height_ft" name="height_ft" type="number" inputmode="numeric" min="3" max="8" step="1" placeholder="5" autocomplete="off"><span class="unit">ft</span></div></div>
+          <div class="field"><label for="bmi-height_in" class="sr-only">Height, inches</label>
+            <div class="input-wrap"><input id="bmi-height_in" name="height_in" type="number" inputmode="decimal" min="0" max="11.9" step="0.1" placeholder="7" autocomplete="off"><span class="unit">in</span></div></div>
+        </div>
+      </fieldset></div>
+        <div class="field span-2"><label for="bmi-weight-lb">Weight</label>
+          <div class="input-wrap"><input id="bmi-weight-lb" name="weight_lb" type="number" inputmode="decimal" min="45" max="1000" step="0.1" placeholder="165" autocomplete="off"><span class="unit">lb</span></div></div>
+      </div>
+      <div data-units="metric" class="form-grid" hidden>
+        <div class="field"><label for="bmi-height-cm">Height</label>
+          <div class="input-wrap"><input id="bmi-height-cm" name="height_cm" type="number" inputmode="decimal" min="90" max="245" step="0.1" placeholder="170" autocomplete="off"><span class="unit">cm</span></div></div>
+        <div class="field"><label for="bmi-weight-kg">Weight</label>
+          <div class="input-wrap"><input id="bmi-weight-kg" name="weight_kg" type="number" inputmode="decimal" min="20" max="450" step="0.1" placeholder="75" autocomplete="off"><span class="unit">kg</span></div></div>
+      </div>
+      <div class="form-error" role="alert" aria-live="assertive"></div>
+      <div class="form-actions"><button class="btn btn--primary" type="submit">Calculate</button><button class="btn btn--outline" type="reset">Reset</button></div>
+    </form>
+        </div>
+        <div class="result" id="bmi-result" aria-live="polite">
+          <h2>Your result</h2>
+          <p class="result__placeholder">Enter your height and weight, then select Calculate to see your BMI.</p>
+        </div>
+      </div>
+    </div></section>
+    <section class="section section--tight"><div class="container content-layout">
+      <article class="prose">
+        <h2>What is BMI?</h2>
+        <p>Body mass index (BMI) is a number calculated from your weight and height. In US units, the formula is <strong>BMI = 703 &times; weight (lb) &divide; height (in)&sup2;</strong>. It's widely used as a quick screening tool because it's simple and inexpensive.</p>
+        <h2>BMI categories for adults</h2>
+        <div class="table-wrap"><table>
+          <caption class="sr-only">Adult BMI categories</caption>
+          <thead><tr><th scope="col">BMI</th><th scope="col">Category</th></tr></thead>
+          <tbody><tr><td>Below 18.5</td><td>Underweight</td></tr><tr><td>18.5 to 24.9</td><td>Healthy weight</td></tr>
+          <tr><td>25 to 29.9</td><td>Overweight</td></tr><tr><td>30 or higher</td><td>Obesity</td></tr></tbody></table></div>
+        <p>These categories apply to adults age 20 and older. Children and teens are assessed with age- and sex-specific BMI percentiles, so this calculator isn't designed for them.</p>
+        <h2>Limitations of BMI</h2>
+        <ul>
+          <li><strong>It doesn't measure body fat directly.</strong> Muscular people may have a high BMI without excess fat.</li>
+          <li><strong>It doesn't show where fat is stored.</strong> Abdominal fat carries more health risk, which is why <a href="belly-fat.html">waist size</a> adds useful information.</li>
+          <li><strong>It can vary in meaning across groups.</strong> The relationship between BMI and health risk differs with age, sex and ethnicity. For example, some people of Asian descent may face higher health risks at lower BMIs.</li>
+          <li><strong>It's one data point.</strong> Blood pressure, blood sugar, cholesterol, fitness and family history all matter too.</li>
+        </ul>
+        <p>Curious about a weight range for your height? Try the <a href="ideal-weight.html">ideal weight calculator</a>.</p>
+        <div class="callout"><p class="callout__title">Important</p><p>This calculator provides a general estimate for educational purposes only. It isn't a diagnosis or a personalized medical recommendation. Talk with your doctor or a registered dietitian about your individual needs. See our <a href="medical-disclaimer.html">medical disclaimer</a>.</p></div>
+      </article>
+      <aside class="sidebar" aria-label="Related"><div class="side-card side-card--contact"><h2><span data-contact="label">Contact Us Toll-Free</span></h2><p>Questions about using our tools?</p><span data-contact="number" data-class="side-card__number">+1-888-MY-HEALTH</span><a class="text-link" href="contact.html">Contact page</a></div><div class="side-card"><h2>Related guides</h2><ul><li><a href="weight-loss.html">Healthy Weight Loss Guide</a></li><li><a href="fat-loss.html">Fat Loss Guide</a></li><li><a href="belly-fat.html">How to Lose Belly Fat</a></li><li><a href="meal-plans.html">Healthy Meal Plans</a></li><li><a href="calculators.html">All calculators</a></li></ul></div></aside>
+    </div></section>
+    <section class="section section--white" aria-labelledby="more-tools"><div class="container">
+      <div class="section-head"><span class="eyebrow">Keep exploring</span><h2 id="more-tools">More free calculators</h2></div>
+      <div class="grid grid--3"><article class="card tool-card reveal"><div class="icon-badge"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3c1 3 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5 0 2 1 3 2 3 0-3-1-5.5 1-8.5z"/></svg></div><h3><a href="calorie-calculator.html">Calorie Calculator</a></h3><p>Estimate the calories your body uses each day based on your age, height, weight and activity level.</p><span class="text-link" aria-hidden="true">Open calculator</span></article><article class="card tool-card reveal"><div class="icon-badge"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 15 15 4l5 5L9 20z"/><path d="M8 11l1.5 1.5M11 8l1.5 1.5M14 5l1.5 1.5"/></svg></div><h3><a href="ideal-weight.html">Ideal Weight Calculator</a></h3><p>See the weight range linked to a healthy BMI for your height, plus common reference formulas.</p><span class="text-link" aria-hidden="true">Open calculator</span></article><article class="card tool-card reveal"><div class="icon-badge"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></svg></div><h3><a href="water-calculator.html">Water Intake Calculator</a></h3><p>Get a general daily hydration estimate based on your weight, exercise and climate.</p><span class="text-link" aria-hidden="true">Open calculator</span></article></div></div></section>
+  </main>
+  <div id="wp-footer"></div>
+</body>
+</html>
