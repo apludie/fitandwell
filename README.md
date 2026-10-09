@@ -12,14 +12,14 @@ A static weight-loss and healthy-eating website for US visitors, built with plai
 | **Enable click-to-call** | `assets/js/config.js` | Only after your real number works: set `contactNumberVerified: true` and `contactTelephoneHref: "tel:+18885551234"` (digits only, with +1). |
 | **Contact email (optional)** | `assets/js/config.js` | Set `contactEmail` to show an email in the footer and on the Contact page. Leave `null` to hide it. |
 | **Mobile bottom bar** | `assets/js/config.js` | `showMobileContactBar: true` or `false`. |
-| **Your domain** | All `.html` files, `sitemap.xml`, `robots.txt`, `assets/js/config.js` | Replace every `https://www.yourdomain.com` with your real domain (see below). |
+| **Your domain** | All `.html` files, `sitemap.xml`, `robots.txt`, `assets/js/config.js` | Replace every `https://fitandwellliving.com` with your real domain (see below). |
 | **Team & reviewers** | `about.html` (section "Our team and reviewers") | Add real names and verified credentials only. |
 | **Legal pages** | `privacy-policy.html`, `terms.html` | Have them reviewed by a legal professional. Update the privacy policy if you add analytics, ads, forms or a newsletter. |
 | **Editorial policy** | `editorial-policy.html` | Make sure every statement matches how you actually work. |
 
 ### Replacing the domain in one step
 
-In VS Code: press **Ctrl+Shift+H** (Cmd+Shift+H on Mac), search for `https://www.yourdomain.com`, enter your domain (for example `https://www.wellpath.com`, no trailing slash), and select **Replace All**. This updates canonical URLs, social sharing tags, structured data, the sitemap and robots.txt.
+In VS Code: press **Ctrl+Shift+H** (Cmd+Shift+H on Mac), search for `https://fitandwellliving.com`, enter your domain (for example `https://www.wellpath.com`, no trailing slash), and select **Replace All**. This updates canonical URLs, social sharing tags, structured data, the sitemap and robots.txt.
 
 ### About the placeholder number
 
@@ -64,13 +64,13 @@ All links use relative paths, so the site works both at that address and on a cu
 
 ### Connect your custom domain
 
-1. In **Settings → Pages → Custom domain**, enter your domain (for example `www.yourdomain.com`) and select **Save**. GitHub creates a `CNAME` file for you.
+1. In **Settings → Pages → Custom domain**, enter your domain (for example `fitandwellliving.com`) and select **Save**. GitHub creates a `CNAME` file for you.
 2. At your domain registrar, add DNS records:
    - For `www`: a **CNAME** record pointing to `YOUR-USERNAME.github.io`
-   - For the root domain (`yourdomain.com`): **A** records pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`
+   - For the root domain (`fitandwellliving.com`): **A** records pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`
 3. Wait for DNS to update (this can take up to 24 hours), then turn on **Enforce HTTPS** in Settings → Pages.
 4. Check GitHub's current documentation ("Managing a custom domain for your GitHub Pages site") in case these values change.
-5. After launch, submit `https://www.yourdomain.com/sitemap.xml` in Google Search Console and Bing Webmaster Tools.
+5. After launch, submit `https://fitandwellliving.com/sitemap.xml` in Google Search Console and Bing Webmaster Tools.
 
 ---
 
