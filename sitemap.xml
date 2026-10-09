@@ -1,108 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
-    <loc>https://fitandwellliving.com/about.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>1.0000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/belly-fat.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/weight-loss.html</loc>
+       <lastmod>2026-10-09T00:00:00+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/blog.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/fat-loss.html</loc>
+       <lastmod>2026-10-09T00:00:00+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/bmi-calculator.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/meal-plans.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/calculators.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/recipes.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/calorie-calculator.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/calculators.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/contact.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/blog.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/editorial-policy.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.5</priority>
+       <loc>https://fitandwellliving.com/about.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/fat-loss.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/contact.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/ideal-weight.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/calorie-calculator.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>1.0</priority>
+       <loc>https://fitandwellliving.com/bmi-calculator.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/meal-plans.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/ideal-weight.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/medical-disclaimer.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.5</priority>
+       <loc>https://fitandwellliving.com/water-calculator.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/privacy-policy.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.5</priority>
+       <loc>https://fitandwellliving.com/belly-fat.html</loc>
+       <lastmod>2026-10-09T00:00:00+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/protein-and-weight-loss.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/editorial-policy.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/recipes.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/protein-and-weight-loss.html</loc>
+       <lastmod>2026-10-09T00:00:00+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/sleep-and-weight.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/weight-loss-plateau.html</loc>
+       <lastmod>2026-10-09T00:00:00+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/terms.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.5</priority>
+       <loc>https://fitandwellliving.com/sleep-and-weight.html</loc>
+       <lastmod>2026-10-09T00:00:00+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/water-calculator.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/medical-disclaimer.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.6400</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/weight-loss-plateau.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/privacy-policy.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.6400</priority>
   </url>
   <url>
-    <loc>https://fitandwellliving.com/weight-loss.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.8</priority>
+       <loc>https://fitandwellliving.com/terms.html</loc>
+       <lastmod>2026-10-09T12:20:49+00:00</lastmod>
+       <priority>0.6400</priority>
   </url>
 </urlset>
